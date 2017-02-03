@@ -1,0 +1,46 @@
+	<style>
+		body {
+			background: #F5F4EF;
+			color: #000305;
+			font-size: 87.5%; /* Base font size: 14px */
+			font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+			line-height: 1.429;
+			margin: 0;
+			padding: 0;
+			text-align: left;
+		}
+
+		h1 { color: silver; }
+		h2 { color: lightgray; }
+		h1, h2, h3, h4, h5, h6 {
+			font-weight: 400;
+			line-height: 1.1;
+			margin-bottom: .8em;
+			font-family: 'Yanone Kaffeesatz', arial, serif;
+		}
+		
+		img {
+			max-width: 100%;
+			height: auto;
+			border: 1px dotted black;
+			margin-right: 50px;
+		}
+		.responsive {
+		padding: 0 6px;
+		float: left;
+		width: 24.99999%;
+		}
+
+		@media only screen and (max-width: 700px){
+			.responsive {
+				width: 49.99999%;
+				margin: 6px 0;
+			}
+		}
+
+		@media only screen and (max-width: 500px){
+			.responsive {
+				width: 100%;
+			}
+		}
+	</style>
